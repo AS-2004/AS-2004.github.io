@@ -146,3 +146,24 @@ header .nav-logo span {
     background: #e4ccff;
     color: #7700ff;
 }
+
+@media screen and (max-width: 992px) {
+    .hero .container {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .hero img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .hero .h1 {
+        font-size: 2.5rem;
+    }
+}
