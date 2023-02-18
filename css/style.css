@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
+body,
+html {
     font-family: 'Labrada', serif;
+    scroll-behavior: smooth;
+
 }
 
 a {
@@ -181,6 +184,7 @@ header .nav-logo span {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .about .content {
