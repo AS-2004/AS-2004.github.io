@@ -67,3 +67,82 @@ header .nav-logo span {
         display: none;
     }
 }
+
+/* styling hero section */
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    line-height: 100%;
+}
+
+.hero h1 span {
+    display: block;
+    color: #7700ff;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    font-weight: 500;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    background: #7700ff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+
+    border: none;
+    border-radius: 5px;
+
+    font-weight: 500;
+}
+
+.hero .btn-wrapper {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .icon-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.hero .icon-wrapper a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-content: center;
+    background: #1b1b1b;
+    color: white;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+}
+
+.hero .icon-wrapper a:hover {
+    background: #7700ff;
+}
+
+.hero img {
+    filter: drop-shadow(0 10px #7700ff);
+}
+
+.btn.btn-secondary {
+    background: #e4ccff;
+    color: #7700ff;
+}
