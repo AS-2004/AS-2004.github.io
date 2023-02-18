@@ -167,3 +167,50 @@ header .nav-logo span {
         font-size: 2.5rem;
     }
 }
+
+.about .container img {
+    width: 300px;
+    height: 600px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 2);
+    border-style: outset;
+}
+
+/* styling about section */
+.about .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about .content {
+    max-width: 600px;
+    display: grid;
+    gap: 1rem;
+}
+
+.about .content .h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.about .content .h2 span {
+    color: #7700ff;
+}
+
+.about .content .btn {
+    margin-top: 1rem;
+    width: fit-content;
+}
+
+@media screen and (max-width:768px) {
+    .about {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .about .image {
+        display: none;
+    }
+}
